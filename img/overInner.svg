@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="341" height="438" viewBox="0 0 341 438">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Background" width="341" height="438" transform="translate(1025 585)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_3" data-name="Mask Group 3" transform="translate(-1025 -585)" clip-path="url(#clip-path)">
+    <g id="Artwork" transform="matrix(-0.259, -0.966, 0.966, -0.259, 1114.743, 950)" opacity="0.89">
+      <ellipse id="Ellipse_38" data-name="Ellipse 38" cx="107.271" cy="107.271" rx="107.271" ry="107.271" transform="translate(61.65 165.222)" fill="#ffad12" opacity="0.56"/>
+      <ellipse id="Ellipse_39" data-name="Ellipse 39" cx="48.703" cy="48.703" rx="48.703" ry="48.703" transform="translate(16.029 93.708)" fill="#fabf43" opacity="0.3"/>
+      <ellipse id="Ellipse_40" data-name="Ellipse 40" cx="28.975" cy="29.592" rx="28.975" ry="29.592" transform="translate(158.163 91.242)" fill="#fabf43" opacity="0.26"/>
+      <circle id="Ellipse_42" data-name="Ellipse 42" cx="31.441" cy="31.441" r="31.441" transform="translate(0 0)" fill="#fabf43" opacity="0.22"/>
+      <ellipse id="Ellipse_41" data-name="Ellipse 41" cx="29.592" cy="28.975" rx="29.592" ry="28.975" transform="translate(99.309 33.291)" fill="#fabf43" opacity="0.15"/>
+      <circle id="Ellipse_43" data-name="Ellipse 43" cx="17.262" cy="17.262" r="17.262" transform="translate(103.046 0)" fill="#fabf43" opacity="0.1"/>
+    </g>
+  </g>
+</svg>

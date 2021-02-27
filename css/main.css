@@ -1,0 +1,341 @@
+@font-face {
+    font-family: font-medium;
+    src: url('../fonts/GE-SS-Medium.otf');
+}
+
+@font-face {
+    font-family: font-bold;
+    src: url('../fonts/GE-SS-Two-Bold.otf');
+}
+
+@font-face {
+    font-family: font-light;
+    src: url('../fonts/GE_SS_LIGHT.otf');
+}
+
+body {
+    font-family: font-medium;
+}
+
+:root {
+    --colorMain: #FFAD12;
+    --colorScandry: #FABF43;
+}
+
+* {
+    line-height: 1.5 !important;
+}
+
+/* over bootstrap */
+
+.navbar {
+    background-color: #FCFCFC !important
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #989898;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: var(--colorMain);
+}
+
+.navbar .linkLang {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .linkLang .nav-link {
+    color: #001737;
+    font-size: 14px;
+}
+
+.navbar .linkLang .nav-link:hover {
+    color: #001737;
+}
+
+.navbar .linkLogin {
+    background-color: var(--colorScandry);
+    box-shadow: 0px 3px 6px var(--colorScandry);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    display: inline-block;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.navbar .linkLogin:hover {
+    box-shadow: 0px 3px 9px var(--colorScandry);
+}
+
+.navbar-light .navbar-nav .linkLogin .nav-link {
+    color: #FFFFFF;
+    padding: 6px 20px;
+}
+
+.navbar-light .nav-item {
+    margin: 0 3.66vw 0 0;
+}
+
+.navbar-light .nav-item .nav-link {
+    padding: 0;
+    line-height: 1;
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        padding: 44px 0 !important;
+    }
+
+    .navbar-nav {
+        align-items: center;
+        white-space: nowrap;
+    }
+
+    /* Note1 */
+    .navbar .linkLang img {
+        position: relative;
+        top: -2px;
+        margin-right: 10px;
+    }
+
+    .navbar .linkLogin {
+        position: relative;
+        top: -4px;
+    }
+}
+
+/* style section main */
+
+.main {
+    background-color: #FCFCFC;
+    overflow-x: hidden;
+}
+
+
+.main .title {
+    font-family: font-bold;
+    color: #515C6E;
+}
+
+.main .desc {
+    font-family: font-light;
+    color: #868686;
+}
+
+.main form input {
+    color: #001737;
+    padding: 15px 30px;
+    font-size: 14px;
+    font-family: font-light;
+    padding: 12px 30px;
+    border-radius: 24px !important;
+    -webkit-border-radius: 24px !important;
+    -moz-border-radius: 24px !important;
+    -ms-border-radius: 24px !important;
+    -o-border-radius: 24px !important;
+    border-left: none;
+    background-color: #FFF;
+    border-color: #E5E7F0;
+}
+
+.main form input::placeholder {
+    color: #989898;
+}
+
+.main form .form-control:focus {
+    color: #001737;
+    background-color: #fff;
+    border-color: #E5E7F0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 0%);
+}
+
+.btnSubmit {
+    position: relative;
+    left: 0;
+    height: 100%;
+    color: #FFF;
+    z-index: 9;
+    font-size: 18px;
+    padding: 0 24px;
+    border: none;
+    background-color: var(--colorMain);
+    box-shadow: 0px 6px 10px var(--colorScandry);
+    border-radius: 34px !important;
+    -webkit-border-radius: 34px !important;
+    -moz-border-radius: 34px !important;
+    -ms-border-radius: 34px !important;
+    -o-border-radius: 34px !important;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.btnSubmit:hover {
+    box-shadow: 0px 6px 15px var(--colorScandry);
+}
+
+.main form button[type="submit"] {
+    position: absolute;
+}
+
+.main form button[type="submit"]:hover,
+.main form button[type="submit"]:focus {
+    box-shadow: 0px 6px 10px var(--colorScandry);
+}
+
+.main .wellcomeImg img {
+    width: 100%;
+}
+
+.main .iconToDown {
+    color: #E5E7F0;
+    font-size: 44px;
+}
+
+@media (min-width: 992px) {
+    .main {
+        padding-top: 2.3rem;
+        padding-bottom: 0;
+    }
+
+    .main .wellcomeText>div {
+        width: 74%;
+    }
+}
+
+@media (min-width: 1260px) {
+    .main .wellcomeImg img {
+        position: relative;
+        right: 3.125rem;
+    }
+}
+
+/* style formToReservation */
+
+.formToReservation {
+    position: relative;
+}
+
+.formToReservation .container {
+    background-color: #FFF;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    border: 1px solid #E5E7F0;
+    box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.05);
+    padding-top: 36px;
+    padding-bottom: 40px;
+    position: relative;
+    z-index: 5;
+}
+
+.formToReservation::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    right: 0;
+    top: 0;
+    background-color: #FCFCFC;
+    z-index: -1;
+}
+
+.formToReservation .innerTopRight {
+    position: absolute;
+    z-index: 5;
+    top: -185px;
+    right: -40px;
+}
+
+.formToReservation .outerTopRight {
+    position: absolute;
+    z-index: 2;
+    top: -185px;
+    right: -40px;
+}
+
+.formToReservation .innerDownLeft {
+    position: absolute;
+    left: 11px;
+    bottom: 6px;
+}
+
+@media (min-width: 1px) and (max-width: 1200px) {
+    .formToReservation .innerTopRight {
+        top: -155px;
+    }
+
+    .formToReservation .outerTopRight {
+        top: -155px;
+    }
+}
+
+.formToReservation h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #515C6E;
+}
+
+.formToReservation .form-select,
+.formToReservation .form-control {
+    color: #BBBCC1;
+}
+
+.formToReservation .form-control::placeholder {
+    color: #BBBCC1;
+}
+
+.formToReservation .input-group-text {
+    background: #F2F3F8;
+    color: #BBBBBB;
+    flex: 0 0 35px;
+    max-width: 35px;
+    justify-content: center;
+}
+
+.formToReservation .form-select,
+.formToReservation .form-control,
+.formToReservation .input-group-text {
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.formToReservation select {
+    -moz-appearance: none !important;
+    -webkit-appearance: none !important;
+    background-image: none;
+}
+
+.formToReservation input[type="number"] {
+    direction: rtl;
+}
+
+.formToReservation .form-select:focus,
+.formToReservation .form-control:focus {
+    border-color: #ced4da;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 0%);
+}
+
+@media (min-width: 992px) {
+    .formToReservation .row {
+        width: 60%;
+        margin: auto;
+    }
+}
